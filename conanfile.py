@@ -3,10 +3,10 @@ from conans import ConanFile, CMake, tools
 
 class CmakefindboostmonolithicConan(ConanFile):
     name = "CMake_FindBoost_Monolithic"
-    version = "0.1"
+    version = "1.0"
     license = "MIT"
     author = "Ede Bittner bittner.ede@gmail.com"
-    url = "<Package recipe repository url here, for issues about the package>"
+    url = "https://github.com/elnoir/conan-cmake_findboost_monolithic/issues"
     description = "Custom find boost for the "
     topics = ("cmake", "conan", "boost")
     settings = None
