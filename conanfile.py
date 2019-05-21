@@ -11,6 +11,7 @@ class CmakefindboostmonolithicConan(ConanFile):
     topics = ("cmake", "conan", "boost")
     settings = None
     exports_sources = "cmake/FindBoost.cmake"
+    exports = "LICENSE.md"
 
     def package(self):
         self.copy("*.cmake", keep_path=False)
