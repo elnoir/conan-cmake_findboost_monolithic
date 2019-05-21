@@ -5,7 +5,7 @@ This package contains a FindBoost.cmake to wrap the conans boost package ( boost
 The cmake script works the following way:
  - sets the include / library dirs based on the variables provided by conan
  - adds imported target for header only and diagnostic target
- - parse the CONAN_LIBS_BOOST variable for boost components and creating Boost::<component> target
+ - parse the CONAN_LIBS_BOOST variable for boost components and creating Boost::< component>  target
 
 # Notes
-When using this script, use the conan_basic_setup(TARGETS), because the generated Boost::<component>-s will depend on the CONAN_Pkg::boost target.
+When using this script, use the conan_basic_setup(TARGETS), because the generated Boost::< component >-s will depend on the CONAN_Pkg::boost target.
